@@ -1,0 +1,20 @@
+{
+  "name": "atm-node",
+  "version": "1.0.0",
+  "description": "ATM",
+  "main": "index.js",
+  "repository": "git@github.com:gerisztein/atm-node.git",
+  "author": "Lucas Gerisztein <lucas@lucasg.com.br>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "fs": "^0.0.1-security",
+    "inquirer": "^6.2.2"
+  },
+  "scripts": {
+    "setup": "node index setup",
+    "start": "node index",
+    "withdraw": "node index"
+  }
+}
