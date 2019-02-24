@@ -13,8 +13,8 @@
     "inquirer": "^6.2.2"
   },
   "scripts": {
-    "setup": "node index setup",
-    "start": "node index",
-    "withdraw": "node index"
+    "setup": "node index.js setup",
+    "start": "node index.js",
+    "withdraw": "node index.js"
   }
 }
